@@ -23,3 +23,14 @@ function getRandomNumber() {
   // Return number between 0 - 1 multiplied by length of array and rounded with floor method
   return Math.floor(Math.random() * colors.length);
 }
+
+if ('cat' === 'dog') {
+  var outcome = 'if block';
+} else {
+  var outcome = 'else block';
+}
+outcome;
+
+for (var i = 0; i < 9; i++) {
+  console.log(i);
+}
